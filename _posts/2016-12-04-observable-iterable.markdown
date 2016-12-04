@@ -34,6 +34,6 @@ Here, `[]` is the initial value for our accumulator, which is returned in the ca
 
 The source code for this project is [here][post-code]. See ya!
 
-[observable-from-docs]: http://here
-[reduce-docs]: http://here
-[post-code]: http://here
+[observable-from-docs]: http://reactivex.io/documentation/operators/from.html
+[reduce-docs]: https://github.com/augustoerico/observable-iterable
+[post-code]: https://github.com/augustoerico/observable-iterable
