@@ -41,7 +41,7 @@ class DataTransformer {
         newMap
     }
 
-    static applyMyFunction(List list, Closure closure) {
+    static applyMyFunction(List list) {
         def newList = []
         list.each { value ->
             if (value instanceof Map || value instanceof List) {
@@ -56,7 +56,7 @@ class DataTransformer {
 }
 ```
 
-But, what if we want to apply another function? Since Groovy is a functional programming language, we can easily refactor this code to accept a Closure as a parameter:
+But, what if we want to apply another function? Since Groovy is a functional programming language, we can easily refactor this code to accept a [Closure][closure-docs] as a parameter:
 
 ```
 class DataTransformer {
@@ -94,3 +94,4 @@ As usual, the code for this post is at [GitHub][code-post]. See ya!
 
 [recursive-function]: https://en.wikipedia.org/wiki/Recursion_(computer_science)
 [code-post]: https://github.com/augustoerico/going-recursive
+[closure-docs]: http://groovy-lang.org/closures.html
