@@ -15,7 +15,7 @@ With Vert.x, we can do the same thing: you can have your server running on a thr
 
 # Say "Hello!" to our 1 million dollars idea -  a test case
 
-According to our research, there are many lonely people in the world. Our solution is to build a RESTful API that says "Hello, <name>!" and "Bye, <name>!". These two operations are computational expensive (no, they are not), so we may want to run them on separated threads, keeping our server free to handle other requests.
+According to our research, there are many lonely people in the world. Our solution is to build a RESTful API that says "Hello, Erico!" and "Bye, Erico!". These two operations are computational expensive (no, they are not), so we may want to run them on separated threads, keeping our server free to handle other requests.
 
 # A quick note about verticles
 
@@ -88,19 +88,19 @@ You can run the Application main and make requests using [Postman][postman]. Jus
 Here is some output I had in my tests:
 
 ```
-HelloVerticle.start       : 13 | vert.x-worker-thread-0
-ByeVerticle.start         : 16 | vert.x-eventloop-thread-1
+HelloVerticle.start       : thread: 13 | vert.x-worker-thread-0
+ByeVerticle.start         : thread: 16 | vert.x-eventloop-thread-1
 All verticles deployed
 Application.main          : thread: 15 | vert.x-eventloop-thread-0
 HelloHandler.handle       : thread: 15 | vert.x-eventloop-thread-0
 Sending message to event bus
-HelloVerticle.helloHandler: 19
+HelloVerticle.helloHandler: thread: 19 | vert.x-worker-thread-1
 Hello.sayHello: handling reply
-Hello.sayHello: thread    : 15 | vert.x-eventloop-thread-0
+Hello.sayHello: thread    : thread: 15 | vert.x-eventloop-thread-0
 Hello.sayHello: success
 HelloHandler.handleResult : thread: 15 | vert.x-eventloop-thread-0
-ByeHandler.handle: thread : 15 | vert.x-eventloop-thread-0
-ByeVerticle.byeHandler    : 16
+ByeHandler.handle: thread : thread: 15 | vert.x-eventloop-thread-0
+ByeVerticle.byeHandler    : thread: 16 | vert.x-eventloop-thread-1
 Bye.sayBye: handling reply
 Bye.sayBye                : thread: 15 | vert.x-eventloop-thread-0
 Bye.sayBye: success
