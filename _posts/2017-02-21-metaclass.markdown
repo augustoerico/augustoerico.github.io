@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Metaprogramming with Groovy - Quick tip"
+title:  "Metaprogramming with Groovy - a tip"
 date:   2017-02-21 9:54:14 -0200
 categories: general
 ---
