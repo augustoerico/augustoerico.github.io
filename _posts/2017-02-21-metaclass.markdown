@@ -30,7 +30,7 @@ Person.metaClass.sayHello = {
 }
 ```
 
-Warping all together:
+Wrapping it all up:
 
 ```
 class Person {
