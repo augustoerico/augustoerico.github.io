@@ -109,9 +109,14 @@ ByeHandler.handleResult   : thread: 15 | vert.x-eventloop-thread-0
 
 As usual, you can access the source code in [GitHub][github-vertx-overview], and I hope it makes you interested in learning more about Vert.x!
 
+# Setting you up
+
+Want to build your own application with Vertx? Feel free to use this [project boilerplate][github-vertx-boilerplate] to get started. Make sure you read the 
+
 
 [vertx]: http://vertx.io/
 [interrupt-wikipedia]: https://en.wikipedia.org/wiki/Interrupt
 [verticle-docs]: http://vertx.io/docs/apidocs/io/vertx/core/Verticle.html
 [github-vertx-overview]: https://github.com/augustoerico/vertx-event-bus-timeout/tree/v1.1
 [postman]: https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
+[project boilerplate]: https://github.com/augustoerico/vertx-mongo-rest-boilerplate
