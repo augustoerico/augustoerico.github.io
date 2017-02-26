@@ -111,7 +111,7 @@ As usual, you can access the source code in [GitHub][github-vertx-overview], and
 
 # Setting you up
 
-Want to build your own application with Vertx? Feel free to use this [project][github-vertx-boilerplate] boilerplate to get started. Make sure you read the `README.md` file.
+Want to build your own application with Vertx? Feel free to use this [project boilerplate][github-vertx-boilerplate] to get started. Make sure you read the `README.md` file.
 
 
 [vertx]: http://vertx.io/
@@ -119,4 +119,4 @@ Want to build your own application with Vertx? Feel free to use this [project][g
 [verticle-docs]: http://vertx.io/docs/apidocs/io/vertx/core/Verticle.html
 [github-vertx-overview]: https://github.com/augustoerico/vertx-event-bus-timeout/tree/v1.1
 [postman]: https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
-[project]: https://github.com/augustoerico/vertx-mongo-rest-boilerplate
+[github-vertx-boilerplate]: https://github.com/augustoerico/vertx-mongo-rest-boilerplate
