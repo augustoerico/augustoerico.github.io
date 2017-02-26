@@ -119,4 +119,4 @@ Want to build your own application with Vertx? Feel free to use this [project][g
 [verticle-docs]: http://vertx.io/docs/apidocs/io/vertx/core/Verticle.html
 [github-vertx-overview]: https://github.com/augustoerico/vertx-event-bus-timeout/tree/v1.1
 [postman]: https://chrome.google.com/webstore/detail/postman/fhbjgbiflinjbdggehcddcbncdddomop
-[project boilerplate]: https://github.com/augustoerico/vertx-mongo-rest-boilerplate
+[project]: https://github.com/augustoerico/vertx-mongo-rest-boilerplate
