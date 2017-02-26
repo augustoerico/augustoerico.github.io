@@ -111,7 +111,7 @@ As usual, you can access the source code in [GitHub][github-vertx-overview], and
 
 # Setting you up
 
-Want to build your own application with Vertx? Feel free to use this [project boilerplate][github-vertx-boilerplate] to get started. Make sure you read the 
+Want to build your own application with Vertx? Feel free to use this [project][github-vertx-boilerplate] boilerplate to get started. Make sure you read the `README.md` file.
 
 
 [vertx]: http://vertx.io/
